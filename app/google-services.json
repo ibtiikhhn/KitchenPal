@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "452801126844",
+    "firebase_url": "https://kitchenpal-2345d.firebaseio.com",
+    "project_id": "kitchenpal-2345d",
+    "storage_bucket": "kitchenpal-2345d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452801126844:android:be8f7865c2d607fc",
+        "android_client_info": {
+          "package_name": "com.fyp.kitchenpal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452801126844-qdd46o18i4vio4ccf0d51n86ofscl6s0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fyp.kitchenpal",
+            "certificate_hash": "197284519d05fa34c38e66300edb5522234cf06d"
+          }
+        },
+        {
+          "client_id": "452801126844-egaohloccek3m3vj9ll8tlod9lt901sq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5AUAN5wRy_58QwORYJzacjoAQVwHMTt0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452801126844-egaohloccek3m3vj9ll8tlod9lt901sq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

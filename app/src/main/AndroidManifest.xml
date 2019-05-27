@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fyp.kitchenpal">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Views.Splash"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Views.ForgotPasswordActivity" />
+        <activity android:name=".Views.AdminLoginActivity" />
+        <activity android:name=".Views.AddRecipeActivity" />
+        <activity android:name=".Views.AdminActivity" />
+        <activity android:name=".Views.RecipeActivity" />
+        <activity android:name=".Views.ProfileActivity" />
+        <activity android:name=".Views.ShoppingActivity" />
+        <activity android:name=".Views.SignUpActivity" />
+        <activity android:name=".Views.LoginActivity"/>
+        <activity android:name=".Views.PantryActivity" />
+        <activity android:name=".Views.FreezerActivity" />
+        <activity android:name=".Views.AddItemActivity" />
+        <activity android:name=".Views.Dashboard"/>
+        <activity android:name=".Views.FridgeActivity" />
+
+        <receiver android:name=".ExpiryPublisher" />
+    </application>
+
+</manifest>

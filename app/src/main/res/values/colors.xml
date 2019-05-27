@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2E4999</color>
+    <color name="colorPrimaryDark">#113274</color>
+    <color name="colorAccent">#2E4999</color>
+
+    <color name="white">#fff</color>
+
+    <color name="light_mode_red">#FF0000</color>
+    <color name="light_mode_amber">#FF7E00</color>
+    <color name="light_mode_green">#25FF01</color>
+
+    <color name="card_background">#4269D6</color>
+    <color name="transparent">#00000000</color>
+
+</resources>
